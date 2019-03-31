@@ -4,10 +4,14 @@
   "license": "MIT",
   "homepage": "http://ahfarmer.github.io/calculator",
   "devDependencies": {
+    "@types/jest": "^24.0.11",
+    "@types/react": "^16.8.10",
+    "@types/react-dom": "^16.8.3",
     "chai": "^4.1.2",
     "gh-pages": "^1.1.0",
     "prettier": "1.13.0",
-    "react-scripts": "^1.1.4"
+    "react-scripts": "*",
+    "typescript": "^3.4.1"
   },
   "dependencies": {
     "big.js": "^5.1.2",
@@ -24,5 +28,11 @@
   },
   "prettier": {
     "trailingComma": "all"
-  }
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
 }

@@ -4,7 +4,7 @@ import ButtonPanel from "./ButtonPanel";
 import calculate from "../logic/calculate";
 import "./App.css";
 
-class App extends React.Component {
+class App extends React.Component<any, any> {
   constructor(props) {
     super(props);
     this.state = {
